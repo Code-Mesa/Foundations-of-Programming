@@ -22,3 +22,15 @@ A console-based C++ application designed to manage and track student grades effi
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/student-grade-management-system.git
+2. Navigate to the project directory:
+   ```bash
+   cd student-grade-management-system
+3. Compile the code:
+   ```bash
+   g++ -o grade_management_system main.cpp
+4. Run the application:
+   ```bash
+   ./grade_management_system
+   
+🤝 Contributing
+Contributions are welcome! Please feel free to submit issues and pull requests to enhance the project.
