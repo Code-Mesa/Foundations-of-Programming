@@ -22,4 +22,4 @@ $(TARGET): $(OBJ)
 
 # Clean up object files and executable
 clean:
-	rm -f $(OBJ) $(TARGET)
+	rm -f $(OBJ).o $(TARGET)

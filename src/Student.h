@@ -4,11 +4,13 @@
 #include <string>
 #include <vector>
 
-class Student {
+class Student
+{
 public:
     std::string name;
     int id;
     std::vector<float> grades;
+    Student() : name(""), id(0) {}
 
     Student(std::string n, int i);
     void addGrade(float grade);
